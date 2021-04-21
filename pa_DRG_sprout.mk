@@ -18,7 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
 # Inherit from  device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -33,7 +33,7 @@ TARGET_SCREEN_HEIGHT := 2280
 PRODUCT_BRAND := Nokia
 PRODUCT_DEVICE := DRG_sprout
 PRODUCT_MANUFACTURER := HMD Global
-PRODUCT_NAME := lineage_DRG_sprout
+PRODUCT_NAME := pa_DRG_sprout
 PRODUCT_MODEL := Nokia 6.1 Plus
 
 PRODUCT_GMS_CLIENTID_BASE := android-hmd
