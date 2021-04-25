@@ -1,0 +1,38 @@
+[
+  {
+    "remote": "github",
+    "repository": "Sid127/kernel_nokia_sdm660",
+    "target_path": "kernel/nokia/sdm660",
+    "revision": "HMP-CAF"
+  },
+  {
+    "remote": "github",
+    "repository": "Sid127/vendor_nokia_DRG_sprout",
+    "target_path": "vendor/nokia/DRG_sprout",
+    "revision": "eleven"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_display",
+    "target_path":  "hardware/qcom/display",
+    "revision":     "ruby-8998"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_media",
+    "target_path":  "hardware/qcom/media",
+    "revision":     "ruby-8998"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_audio",
+    "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+    "revision":     "ruby-8998"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_vendor_qcom-opensource_fm-commonsys",
+    "target_path":  "vendor/qcom/opensource/commonsys/fm",
+    "revision":     "ruby"
+  }
+]
