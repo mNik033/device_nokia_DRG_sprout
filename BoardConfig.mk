@@ -164,6 +164,9 @@ BOARD_USES_QC_TIME_SERVICES := true
 PRIVATE_EXCLUDE_BUILD_TEST := true
 
 # Sepolicy
+include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+
+TARGET_EXCLUDE_QCOM_SEPOLICY := true
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 

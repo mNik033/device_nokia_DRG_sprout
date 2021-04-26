@@ -34,5 +34,11 @@
     "repository":   "AOSPA/android_vendor_qcom-opensource_fm-commonsys",
     "target_path":  "vendor/qcom/opensource/commonsys/fm",
     "revision":     "ruby"
-  }
+  },
+  {
+    "remote":       "github",
+    "repository":   "Sid127/android_device_qcom_sepolicy-legacy-um",
+    "target_path":  "device/qcom/sepolicy-legacy-um",
+    "revision"      "ruby-legacy-um"
+  )
 ]
